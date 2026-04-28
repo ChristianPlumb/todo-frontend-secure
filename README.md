@@ -1,6 +1,9 @@
-# Student List Frontend with JavaScript
+# Todo List Frontend with JavaScript
 
-This application allows users to create and maintain a list of students. Please visit https://github.com/OC-ComputerScience/student-backend for the backend repository.
+This application allows users to create and maintain a bunch of todo lists. Please visit https://github.com/OC-ComputerScience/student-backend for the original thing that probably works better.
+
+Go to this link for a demonstration.
+    - https://youtube.com/watch?v=dQw4w9WgXcQ
 
 ### Table of Contents
 [Project Setup for your Local Machine](#project-setup-for-your-local-machine)</br>
