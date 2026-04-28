@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<title>To-do Login</title>
+		<link rel="stylesheet" type="text/css" href="style.css" />
+	</head>
+	<body>
+		<h2>Login</h2>
+		<p id="debug"></p>
+		<div class="block-center">
+			<p>
+				<span id="page-message">Enter fields and click Save</span>
+			</p>
+			<p>
+				<span class="error-head">* required field.</span>
+			</p>
+			<form id="loginForm" onsubmit="submitForm(event)">
+				Username: <input type="text" id="username"/>
+				<span id="usernameErr" class="error">* </span>
+				<br>
+				Password: <input type="password" id="password"/>
+				<span id="passwordErr" class="error">* </span>
+				<br>
+				<input type="submit" name="submit" value="Login"/>
+			</form>
+			<br>
+			<a href="add-user.html">Register new user</a>
+		</div>
+	</body>
+
+	<script src="./js/login.js"></script>
+	</html>

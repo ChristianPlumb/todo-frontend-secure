@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<title>To-do Update</title>
+		<link rel="stylesheet" type="text/css" href="style.css" />
+	</head>
+	<body>
+		<h2>To-Do Update</h2>
+		<p id="debug"></p>
+		<div class="block-center">
+			<div id="userDisplay">
+				<a href="login.html">Login</a>
+			</div>
+
+			<p><span class="error-head">* required field.</span></p>
+			<p><span id="page-message">Enter fields and click Save</span></p>
+
+			<form class="inline">
+				Name: <input type="text" id="listName" />
+			</form>
+			<form class="inline" onsubmit="updateList(event)">
+				<button type="submit">Update</button>
+			</form>
+			<form class="inline" onsubmit="deleteList(event)">
+				<button type="submit">Delete</button>
+			</form>
+			<form class="inline" action="todo-list.html">
+				<button type="submit">Lists</button>
+			</form>
+
+			<div id="todo-table">
+				<table class="center" id="todo-list-table">
+					<tr>
+						<th width="100px">Complete</th>
+						<th width="100px">Name</th>
+						<th width="100px">Description</th>
+						<th width="100px">State</th>
+						<th width= 100px">Action</th>
+					</tr>
+				</table>
+			</div>
+		</div>
+	</body>
+
+	<script src="./js/todo-update.js"></script>
+	<script src="./js/todo-delete.js"></script>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<title>To-do Add User</title>
+		<link rel="stylesheet" type="text/css" href="style.css" />
+	</head>
+	<body>
+		<h2>Add User</h2>
+		<p id="debug"></p>
+		<div class="block-center">
+			<p>
+				<span id="page-message">Enter fields and click Save</span>
+			</p>
+			<p>
+				<span class="error-head">* required field.</span>
+			</p>
+			<form id="registerForm">
+				First Name: <input type="text" id="firstName"/>
+				<span id="firstNameErr" class="error">* </span>
+				<br>
+				Last Name: <input type="text" id="lastName"/>
+				<span id="lastNameErr" class="error">* </span>
+				<br>
+				Username: <input type="text" id="username"/>
+				<span id="usernameErr" class="error">* </span>
+				<br>
+				Password: <input type="password" id="password"/>
+				<span id="passwordErr" class="error">* </span>
+				<br>
+			</form>
+			<br>
+			<form onsubmit="submitForm(event)" onclick="cancel()">
+				<input type="submit" name="submit" value="Save"/>
+				<button type="button">Cancel</button>
+			</form>
+		</div>
+	</body>
+
+	<script src="./js/add-user.js"></script>
+	</html>

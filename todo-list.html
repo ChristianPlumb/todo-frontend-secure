@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<title>To-do List</title>
+		<link rel="stylesheet" type="text/css" href="style.css" />
+	</head>
+	<body>
+		<h2>To-do List</h2>
+		<div class="block-center">
+			<div id="userDisplay">
+				<a href="login.html">Login</a>
+			</div>
+
+			<p id="page-message"></p>
+			
+			<form class="inline" action="todo-add.html" method="get">
+				<button type="submit">Add</button>
+			</form>
+			
+			<div id="todo-table">
+				<table class="center" id="todo-list-table">
+					<tr>
+						<th width= "100px">To-Do Lists</th>
+						<th width= "100px">Actions</th>
+					</tr>
+				</table>
+			</div>
+			
+			<!--<div class="sketchfab-embed-wrapper"> <iframe style="width: 10px; height: 10px;" title="Mr. Beast toilet" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/a7d575f4caa44f45ad7456a0c20b1705/embed"> </iframe> <p style="font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;"> <a href="https://sketchfab.com/3d-models/mr-beast-toilet-a7d575f4caa44f45ad7456a0c20b1705?utm_medium=embed&utm_campaign=share-popup&utm_content=a7d575f4caa44f45ad7456a0c20b1705" target="_blank" rel="nofollow" style="font-weight: bold; color: #1CAAD9;"> Mr. Beast toilet </a> by <a href="https://sketchfab.com/SMART_SKIBIDI?utm_medium=embed&utm_campaign=share-popup&utm_content=a7d575f4caa44f45ad7456a0c20b1705" target="_blank" rel="nofollow" style="font-weight: bold; color: #1CAAD9;"> THE SMART SKIBIDI </a> on <a href="https://sketchfab.com?utm_medium=embed&utm_campaign=share-popup&utm_content=a7d575f4caa44f45ad7456a0c20b1705" target="_blank" rel="nofollow" style="font-weight: bold; color: #1CAAD9;">Sketchfab</a></p></div>-->
+
+			<p id="selectedID"></p>
+		</div>
+	</body>
+
+	<script src="./js/todo-list.js"></script>
+	<script src="./js/todo-delete.js"></script>
+</html>
